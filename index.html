@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weartake</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+
+        <nav class="navClasses">
+
+            <h1 class="logo">Weartake</h1>
+
+            <div>
+
+                <a href="" class="navegacao" id="todos">Todos</a>
+                <a href="" class="navegacao" id="acessorios">Acessorios</a>
+                <a href="" class="navegacao" id="calcados">Calçados</a>
+                <a href="" class="navegacao" id="camiseta">Camiseta</a>
+
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <main class="container">
+
+        <section class="vitrine container">
+
+            <ul class="listaVitrine"></ul>
+
+
+        </section>
+
+        <section class="carrinho">
+
+            <div class="cabecalhoPesquisa">
+
+                <input type="text" value="" name="input" placeholder="Digite aqui sua pesquisa" class="inputPesquisa">
+
+                <button class="btnPesquisar">Pesquisar</button>
+
+            </div>
+
+
+            <div class="divCarrinho">
+
+                <p class="ListaCompras">Carrinho de compras</p>
+
+                <ul class="listaCarrinho">
+
+                    <li class="carrinhoVazio">
+
+                        <div class="divCarroVazio">
+
+                            <h2 class="msgVazio1">Carrinho vazio</h2>
+
+                            <p class="msgVazio1">Adicione itens</p>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="contador hidden">
+
+                    <p>Quantidade :</p>
+
+                    <small class="itensNoCarrinho">0</small>
+
+                </div>
+
+
+                <div class="contaValor hidden">
+
+                    <p>Total:</p>
+
+                    <small class="totalComprasCarrinho">R$ 0</small>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+     
+    
+
+
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
