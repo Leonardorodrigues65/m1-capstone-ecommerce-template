@@ -2,6 +2,7 @@ let itensNoCarrinho = 0;
 let totalCarrinho = 0; 
 
 function separaItens(list) {
+
   let acessorios = [];
   let calcados = [];
   let camisetas = [];
@@ -145,7 +146,7 @@ function adicionaCarrinho(product) {
     li.remove();
     decrementarCarrinho(li.idBotao); 
 
-    itensNoCarrinho--; r
+    itensNoCarrinho--; 
     templateCarrinho(); 
     document.querySelector(".itensNoCarrinho").innerHTML = `${itensNoCarrinho}`; 
   });
