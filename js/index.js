@@ -87,7 +87,7 @@ function criaCard(listaProdutos) {
   a.id = listaProdutos.id;
 
   li.classList.add("liVitrine");
-  img.classList.add("imagem");
+  img.classList.add("img");
   pCategoria.classList.add("tag");
   pNome.classList.add("name");
   pSobre.classList.add("description");
