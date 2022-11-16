@@ -75,7 +75,7 @@ function criaCard(listaProdutos) {
 
   const a = document.createElement("a");
 
-  img.src = listaProdutos.img;
+  img.src = listaProdutos.img
 
   img.alt = listaProdutos.nameItem;
 
